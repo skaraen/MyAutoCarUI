@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "393291878433",
+    "firebase_url": "https://myautocarui.firebaseio.com",
+    "project_id": "myautocarui",
+    "storage_bucket": "myautocarui.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393291878433:android:2f887440fbfe71ae",
+        "android_client_info": {
+          "package_name": "com.example.karaens.myautocarui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393291878433-ub2vhrluoinroupgl5mprsdqrpvmh7i1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.karaens.myautocarui",
+            "certificate_hash": "87a25b8567140bf33209f2ad89075d3f42f32521"
+          }
+        },
+        {
+          "client_id": "393291878433-h59ov2l9er61amoe2vtq5que5ejei9iq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKVfsaM-vHcm2q056bS594h-Pm0E9elfQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393291878433-h59ov2l9er61amoe2vtq5que5ejei9iq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
