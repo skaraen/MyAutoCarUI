@@ -60,6 +60,8 @@ public class LoginActivity extends AppCompatActivity {
                                 SharedPreferences.Editor editor = getSharedPreferences("Login", MODE_PRIVATE).edit();
                                 editor.putInt("state",1);
                                 editor.apply();
+                                startActivity(new Intent(LoginActivity.this,MapsActivity.class));
+
                             }
                             else
                                 Toast.makeText(LoginActivity.this, "failure", Toast.LENGTH_LONG).show();

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/list_item"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Date: "/>
+        <TextView
+            android:id="@+id/datecollision"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="loading "/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Day: "/>
+        <TextView
+            android:id="@+id/daycollision"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="loading "/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Time: "/>
+        <TextView
+            android:id="@+id/timecollision"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="loading "/>
+    </LinearLayout>
+
+
+</LinearLayout>

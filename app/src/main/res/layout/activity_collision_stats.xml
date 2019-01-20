@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".CollisionStatsActivity">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Car Name: "/>
+        <TextView
+            android:id="@+id/carname"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="loading "/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Address: "/>
+        <TextView
+            android:id="@+id/address"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="loading "/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="City: "/>
+        <TextView
+            android:id="@+id/city"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="loading "/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="State: "/>
+        <TextView
+            android:id="@+id/state"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="loading "/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Country: "/>
+        <TextView
+            android:id="@+id/country"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="loading "/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Postal Code: "/>
+        <TextView
+            android:id="@+id/postalcode"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="loading "/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Fuel: "/>
+        <TextView
+            android:id="@+id/fuel"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="loading "/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Speed: "/>
+        <TextView
+            android:id="@+id/speed"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="loading "/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Type: "/>
+        <TextView
+            android:id="@+id/type"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="loading "/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Received at Time: "/>
+        <TextView
+            android:id="@+id/time"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="loading "/>
+    </LinearLayout>
+
+</LinearLayout>
